@@ -15,7 +15,7 @@ Some useful tips to help you get started:
 
   ```bash
   $> cd /path/to/your-project-folder
-  $> python -m SimpleHTTPServer 8080
+  $> python -m SimpleHTTPServer 8003
   ```
 
 1. Open a browser and visit localhost:8080
@@ -23,7 +23,7 @@ Some useful tips to help you get started:
 
   ``` bash
   $> cd /path/to/your-project-folder
-  $> ./ngrok http 8080
+  $> ./ngrok http 8003
   ```
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
@@ -53,3 +53,25 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+
+
+
+
+
+
+========================================
+changes I have made in index.html
+
+* add style.css as inline style.
+* add media="print" to print.css becuase we do not want it to be rendered in all screens.
+
+* Uncomment google font api, because it will not make any difference if we deleted it.
+* add 'async' to both of perfmatters.js & analytics.js to remove the render-blocking
+
+* compress images.
+
+
+========================================
+index.html
+
